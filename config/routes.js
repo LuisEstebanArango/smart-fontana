@@ -25,8 +25,15 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'pages/homepage'
+    view: 'pages/homepage',
+    locals: {
+      layout: 'layouts/onlyLayout'
+    }
   },
+  'get /dashboard':                   { view: 'pages/dashboard' },
+  'get /users/list':                  { view: 'pages/user/list' },
+  'get /users/add':                   { view: 'pages/user/add'  },
+  'get /users/:id/edit':              { view: 'pages/user/add'  }, // TODO usar action y controlador // req.param('id')
 
   /***************************************************************************
   *                                                                          *
