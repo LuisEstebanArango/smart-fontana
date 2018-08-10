@@ -1,0 +1,109 @@
+<!-- Breadcrumbs-->
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="#">Dashboard</a>
+    </li>
+    <li class="breadcrumb-item active">Usuarios</li>
+  </ol>
+<!-- Breadcrumbs-->
+<div class="card mb-3">
+  <div class="card-header">
+    <i class="fa fa-table"></i> Lista de usuarios
+    <a href="/users/add" class="btn btn-success pull-right rounded-left"><i class="fa fa-fw fa-plus"></i></a>
+    
+  </div>
+  <div class="card-body">
+    <div class="table-responsive">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="form-group">
+              <label for="exampleInputEmail1">No. Identificación</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="No. Identificación">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Grado/Tipo</label>
+              <select class="form-control">
+                <option>11</option>
+                <option>10</option>
+                <option>9</option>
+                <option>8</option>
+                <option>7</option>
+                <option>6</option>
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+                <option>Docentes</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-sm">
+              <div class="form-group">
+                <button type="button" class="form-control btn btn-primary" style="margin-top: 2em;">Buscar</button>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="table-responsive">
+          <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Grado</th>
+                <th>Saldo</th>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                  <th>Código</th>
+                  <th>Nombre</th>
+                  <th>Grado</th>
+                  <th>Saldo</th>
+                  <th>Acción</th>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>
+                  <i class="fa fa-fw fa-edit"></i>
+                  <i class="fa fa-fw fa-trash-o"></i>
+                  <i class="fa fa-fw fa-edit"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+              </tr>
+              <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
