@@ -26,12 +26,12 @@ module.exports = {
       unique: true,
       required: true
     },
-    tipo : {
+    type : {
       type: 'string',
       isIn: ["TEACHER", "STUDENT", "ADMIN"], // TODO cambiar a constantes
       required: true
     },
-    grado : {
+    grade : {
       type: 'string',
       isIn: ["k2", "k3", "k4", "T", "1A", "1B", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"], // TODO cambiar a constantes
       allowNull: true
