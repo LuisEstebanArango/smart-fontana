@@ -1,0 +1,21 @@
+{
+  "name": "smart-fontana",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "luis"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/LuisEstebanArango/smart-fontana",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
